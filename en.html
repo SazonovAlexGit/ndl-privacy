@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy for the NDL iOS App</title>
+<style>body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.55;max-width:720px;margin:2rem auto;padding:0 1.25rem;color:#111}h1{font-size:1.75rem}h2{margin-top:2rem;font-size:1.25rem}blockquote{margin:1rem 0;padding:.75rem 1rem;background:#f5f5f7;border-left:4px solid #0a84ff}code{font-size:.92em;background:#f2f2f2;padding:.1em .35em;border-radius:4px}ul{padding-left:1.25rem}li{margin:.55rem 0}a{color:#06c}</style>
+</head>
+<body>
+<h1>Privacy Policy for the NDL iOS App</h1>
+<blockquote><p><strong>Draft.</strong> In-app deletion of the server profile is planned for the final build.</p></blockquote>
+<p>Effective date — 15.11.2026  </p>
+<p>App operator — Sazonov Aleksey  </p>
+<p>Contact for personal data inquiries — sazonov.alex79@gmail.com</p>
+<p>This policy describes how data is processed in the NDL iOS app and on the app server. The National Dive League certificate registry keeps its own records. Requests to change or delete entries in that registry are handled by its operator.</p>
+<h2>What data we process</h2>
+<ul>
+<li><strong>Profile and certificates.</strong> When you request certificates, the app sends your first name, last name, and date of birth to the registry at <code>ndl-global.com</code>. To verify and sync your profile, the app server also checks these details through the registry and stores your first name, last name, date of birth, and an internal profile identifier. Certificate details, photos, QR codes, and registry response data received from the registry are stored on the device so certificates can be opened offline. If the registry provides a link for generating a QR code, the app contacts <code>api.qrserver.com</code> and passes the profile link supplied by the registry to create the image.</li>
+<li><strong>Author application.</strong> To review an application, we receive your profile details, email, information about yourself, a description of planned publications, and an attached certificate photo. This data is used to review the application, contact you, and manage author access. The email and application attachment are used for processing the application and are not shown in the feed.</li>
+<li><strong>News.</strong> The server stores drafts and published posts, including the title, text, selected photos or videos, category, tags, city, and an external link if you add them. Drafts are available to the author and to authorized staff when maintaining the app. After publication, the news content and author name are available to feed readers. To track “Like” reactions, the server stores an internal app installation identifier and reactions.</li>
+<li><strong>Support requests.</strong> If you submit a request, we store your profile details, the request type and text, the email you provide, and any selected attachment. We use them to reply and resolve the issue, including restoring author access.</li>
+<li><strong>Location.</strong> With iOS permission, the app uses your current location to find nearby dive centers and to suggest a city when creating a news post. For search and city lookup, coordinates or the search area are sent to Apple through system Maps services. The city you choose is saved in the publication. When you open a place in Yandex Maps, information about the opened place is sent to Yandex. <a href="https://www.apple.com/legal/privacy/data/en/apple-maps/">Apple Maps Privacy</a> · <a href="https://yandex.com/legal/confidential/">Yandex Privacy Policy</a></li>
+<li><strong>Notifications and access protection.</strong> When you enable news notifications, the server stores an Apple Push Notification service (APNs) token, an installation identifier, language, and subscription status. Apple receives the token and data needed to deliver the notification. Apple App Attest is used to protect author access. The app sends the server a key identifier, attestation proof, and signed request assertions. Author tokens and the key identifier are stored on the device in the Keychain. App diagnostic logs may include network error codes and HTTP statuses.</li>
+<li><strong>Logbook, planner, and equipment.</strong> Dive records, photos you add to them, saved plans, and equipment details are stored in the app data on the device. NDL does not send them to its server when you use these sections. If you separately attach the same file to an application, support request, or news post, it is sent for that feature.</li>
+</ul>
+<p>The app obtains photos and videos through the system media picker when you choose the files yourself. That data is used for the selected feature. We do not use the data described above for personalized advertising, cross-app tracking, or sale to third parties.</p>
+<h2>Who receives the data</h2>
+<p>Server profiles and records are stored in the app database; media and attachments are stored in the app object storage. Authorized administrators and moderators may access them within the scope of their duties. Data is transmitted over HTTPS.</p>
+<p>The NDL registry, the QR code provider, and Apple receive information to the extent described for the relevant feature. Email services process the address and message content when a reply or author code is sent. When you open an external website, that site’s terms and privacy policy apply.</p>
+<p>Data may also be disclosed to the extent required by applicable law.</p>
+<h2>Retention and deletion</h2>
+<p>Local data remains while you keep it in the app. Logbook entries, plans, and equipment details can be deleted in the corresponding sections. Uninstalling the app from a device does not by itself delete the server profile, applications, or publications.</p>
+<p>The server profile and author-access data are kept for as long as the related features are used. Drafts and publications are kept until deleted by the author or the operator. Applications, support requests, and attachments are kept for one calendar month. Data in backups is removed after a one-week rotation cycle. If the law requires certain information to be retained, it is kept only as needed for the required period.</p>
+<p>To request access to your data, correction, or deletion, write to the email above. To protect the profile, we may ask you to confirm that the request comes from its owner. Deleting an NDL iOS profile does not delete training records from the external certificate registry.</p>
+<p>You can withdraw location and notification permission in iOS Settings. News notifications can also be turned off with the switch in NDL Settings. Withdrawing permission stops the related access or delivery and does not by itself delete previously stored data. Requests to delete previously submitted data can be sent using the contacts above.</p>
+</body>
+</html>
